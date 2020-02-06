@@ -249,7 +249,7 @@ class CounterItemView extends ComponentView<CounterItemBloc> {
           onPressed: () => bloc.execOperation(CounterOperations.decrement),
         ),
         Container(
-          width: 60,
+          width: 100,
           alignment: Alignment.center,
           child: Text(
             value.toString(),

@@ -1,4 +1,4 @@
-name: counters with logs
+name: counters
 description: Application for creating multiple counters with history logs
 
 # The following defines the version and build number for your application.

@@ -46,6 +46,7 @@ class CountersPageView extends AppPageView<CountersBloc> {
   Widget _buildCountersList(BuildContext context, CountersState state) {
     return CustomScrollView(
       controller: bloc.scrollController,
+
       slivers: <Widget>[
         ReorderableSliverList(
           delegate: ReorderableSliverChildListDelegate(
